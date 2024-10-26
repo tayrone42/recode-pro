@@ -1,0 +1,116 @@
+main{
+    padding-bottom: 50px;
+}
+
+h1{
+    color: #C8102E;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.topicos{
+    width: 100%;
+    max-width: 1280px;
+    margin: 30px auto;
+    background-color: rgba(95, 160, 113, 0.779);
+    color:#f2f2f2;
+}
+
+.conteudo{    
+    width: 100%;
+    max-width: 1280px;  
+    margin: 0 auto; 
+    box-sizing: border-box; 
+}
+.conteudo ul{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-position: inside;
+}
+
+.conteudo ul li{
+    width: 100%;
+}
+
+.conteudo2{
+    margin-bottom: 30px;
+}
+
+h2{
+    color: #C8102E;
+    text-align: center;
+    margin-bottom: 30px; 
+    margin-top: 50px;   
+}
+
+.mapbox{
+    display: flex;
+    width: 100%;
+    max-width: 1280px;
+    margin: 30px auto;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    background: #f2f2f2;
+    padding-left: 50px; 
+}
+
+/* .mapbox div{
+    width: 30%;
+} */
+
+.mapbox p{
+    width: 100%;
+    padding: 13px 0;
+    font-size: 17px;
+    font-weight: bold;
+    color: #006837;
+    text-align: center;
+}
+
+.locais{
+    width: 30%;
+    min-width: 310px;
+    border: 3px solid green;
+    margin: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.locais iframe{
+    width: 100%;
+} 
+
+
+@media(max-width: 910px){
+    .mapbox{
+        padding-left: 0;
+    }    
+
+}
+
+@media(max-width: 1210px){
+    .mapbox{
+        padding-left: 0;
+    }
+
+    .locais{
+        width: 40%;
+        margin: 0 auto;
+    }
+        
+}
+
+@media(max-width: 680px){
+    .locais{
+        width: 100%;
+    }
+}
+
+
+

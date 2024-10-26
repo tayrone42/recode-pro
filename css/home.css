@@ -1,0 +1,83 @@
+h1{
+    font-size: 48px;
+    color: #006837;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.green{
+    color: #006837;
+}
+.red{
+    color: #C8102E;
+}
+.yellow{
+    color: #FFD100;
+}
+
+.banner {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.home-motivos {
+    max-width: 1280px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin: 30px auto;
+    padding: 23px 28px;
+    font-size: 24px;
+    color: #C8102E;
+    box-shadow: 10px 10px 4px #00000025;
+}
+
+.home-container{
+    max-width: 1280px;
+    margin: 30px auto;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 10px 10px 4px #00000025;
+}
+
+.home-container-img{
+    width: 50%;
+    height: 100%;
+}
+
+.home-container-content{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 28px;
+    font-size: 24px;
+    color: #006837;
+    font-weight: 500;
+    background-color: #fff;
+    border-radius: 0 20px 20px 0;
+}
+
+@media(max-width: 700px){  
+
+    .home-container{
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+    .home-container-img{
+        width: 100%;
+    }
+
+    .home-container-img img{
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .home-container-content{
+        width: 100%;
+        border-radius: 20px;
+    }
+}

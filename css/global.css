@@ -32,7 +32,7 @@ a {
 }
 
 main{
-    padding: 150px 80px;
+    padding: 30px 80px;
 }
 
 footer{
@@ -51,6 +51,23 @@ footer div{
 footer img{
     width: 72px;
     height: 52px;
+}
+
+@media(max-width: 910px){
+    main{
+        padding: 20px;
+    }
+}
+
+@media(max-width: 700px){
+    header ul{
+        flex-direction: column;
+    }
+
+    footer{
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 
 
