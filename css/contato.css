@@ -1,0 +1,25 @@
+@media(max-width:570px){
+    .img-container{
+        justify-content: center;
+    }
+}
+
+.titulo{
+    font-size: 48px;
+    font-family: "Inter" sans-serif;
+    text-align: center;
+    color: #006837;
+    margin: 80px;
+    align-items: center;
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+    max-width: 1280px;
+    margin: 20px auto;
+    padding: 10px;
+  
+}

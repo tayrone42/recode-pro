@@ -81,3 +81,15 @@ blockquote{
 blockquote a{
     color: #000;
 }
+
+@media(max-width: 1000px){
+    .imagem-banner{
+        height: 500px;
+    }
+}
+
+@media(max-width: 600px){
+    .imagem-banner{
+        height: 400px;
+    }
+}
