@@ -1,3 +1,7 @@
+*{
+    text-transform: uppercase;
+}
+
 h1{
     font-size: 48px;
     color:#006837;
@@ -6,14 +10,17 @@ h1{
 }
 .imagem-banner{
     width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
     background-image: url("../img/enchente-rio-do-sul-001.jpg" );
     height: 900px;
     background-size: cover;
     display: flex;
     align-items: flex-end;
+    justify-content: center;
     color:#000;
     font-weight: bold;
-    margin-bottom: 0 auto;
+    border-radius: 20px;
 }
 
 .imagem-banner figcaption{
@@ -36,6 +43,11 @@ h1{
     margin: 30px auto;
     text-align: justify;
 }
+
+.urgente-paragrafo p{
+    margin: 10px 0;
+}
+
 #segundo-paragrafo{
     width: 100%;
     max-width: 1280px;
@@ -48,11 +60,16 @@ h1{
     text-align: justify;
     list-style-position: inside;
 }
-h2{
+
+
+
+.urgente-subtiulo{
     font-size: 28px;
+    max-width: 1280px;
     color:#006837;
-    text-align: center;
+    margin: 0 auto;
     margin-bottom: 30px;
+    text-align: center;
 }
 blockquote{
     font-size: 16px;
