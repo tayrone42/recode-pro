@@ -1,3 +1,7 @@
+*{
+    text-transform: uppercase;
+}
+
 @media(max-width:570px){
     .img-container{
         justify-content: center;
@@ -22,4 +26,57 @@
     margin: 20px auto;
     padding: 10px;
   
+}
+
+form{
+    margin: 50px auto;
+    background-color: #fff;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 4px #00000025;
+}
+
+form h2{
+    text-align: center;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+form div label{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+form div input{
+    border: none;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form div textarea{
+    min-height: 200px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    border: none;
+}
+
+form button{
+    width: 150px;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #006837;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
 }
